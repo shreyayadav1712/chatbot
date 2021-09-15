@@ -1,0 +1,180 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "I have a doubt",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "Hey",
+        "greetings",
+        "Hi there",
+        "Hello there"
+      ],
+      "responses": [
+        "Hi there, how can I help?"
+        ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "ok thank you",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day",
+        "bye",
+        "thanks",
+        "ok",
+        "Thank you",
+        "see ya"
+      ],
+      "responses": [
+        "Thank you. Happy to Help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "where is Shivaji s. Jondhale college of engineering and technology located?",
+        "how to reach college",
+        "what is address of college",
+        "location",
+        "address"
+      ],
+      "responses": [
+        "College is located at 5 minutes walking distance from Asangoan station"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "about us",
+      "patterns": [
+        "about college",
+        "details about college",
+        "information about college",
+        "what are the affiliation of college",
+        "which university college is affiliated to?, ",
+        "affiliation"
+      ],
+      "responses": [
+        "Shivajirao S. Jondhle College Of Engineering & Technology, Asangaon established in the year 2007-08 with the intake capacity of 240 students. The institute is approved by AICTE, New Delhi; Recognized by DTE, Government of Maharashtra and Affiliated to University of Mumbai"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "programmes",
+      "patterns": [
+        "what programs are offered by the college",
+        "which programmes are available?",
+        "what branches are availabe",
+        "which branches are available",
+        "branches",
+        "programmes",
+        "programs",
+        "which courses are available",
+        "courses"
+      ],
+      "responses": [
+        "UG Programme: CIVIL ENGINEERING,COMPUTER ENGINEERING,ELECTRONICS & TELECOMMUNICATION ENGINEERING,MECHANICAL ENGINEERING & PG Programme: MASTER OF ENGINEERING (CONSTRUCTION ENGINEERING & MANAGEMENT), MASTER OF ENGINEERING (ENERGY SYSTEMS & MANAGEMENT)"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "facilities",
+        "what facilities are available",
+        "which facilities are there in college"
+      ],
+      "responses": [
+        "Library, Gymkhana, Auditorium/seminar halls, Canteen, Language lab, Computer centre, Medical lab"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "placements",
+        "which companies visit college",
+        "recruiters",
+        "which companies visit college for placements",
+        "what are placements",
+        "which companies come to hire students"
+      ],
+      "responses": [
+        "Some recruiters that visited our campus are: Reliance Jio, Runwall Group, Godrej and Bouyce, Seed Infotech and many more"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "admission",
+        "information about admission",
+        "info about admission",
+        "eligibility criteria for admission",
+        "what is admission procedure",
+        "admission procedure",
+        "how to take admission",
+        "how can i apply for admission"
+      ],
+      "responses": [
+        "Eligibility for admission is as per the criteria laid by the State Common Entrance Test cell, Maharashtra State. please refer www.mahacet.org for the documents required for admission "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "fees",
+        "fee details",
+        "what is fees",
+        "how much fee i need to pay",
+        "information about fee",
+        "info about fees",
+        "fee structure",
+        "what is fee structure"
+      ],
+      "responses": [
+        "The fee will be charged as fixed by Fee Regulating Authority"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "scholarship",
+        "schlorship",
+        "scholarship details",
+        "how to apply for scholarship",
+        "information about schlorship"
+      ],
+      "responses": [
+        "To know about Scholarship schemes please contact main office"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact us",
+        "college contact",
+        "contacts",
+        "how to contact college",
+        "contact details",
+        "how can I contact college office",
+        "office contact"
+      ],
+      "responses": [
+        "office@jondhleengg.org"
+      ],
+      "context_set": ""
+    }
+  ]
+}
